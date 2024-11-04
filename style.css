@@ -1,0 +1,53 @@
+
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    color: #d1d1d1;
+    background-color: #111;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 80%;
+    max-width: 600px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: #6ba3a3;
+    font-size: 0.9em;
+    letter-spacing: 1px;
+}
+
+p {
+    margin: 10px 0;
+    line-height: 1.6;
+}
+
+a {
+    color: #6ba3a3;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.signature {
+    margin-top: 30px;
+    font-family: "Brush Script MT", cursive;
+    font-size: 1.2em;
+    text-align: center;
+    color: #d1d1d1;
+}
